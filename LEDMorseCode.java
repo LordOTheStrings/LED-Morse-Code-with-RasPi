@@ -93,7 +93,7 @@ boolean once = false;
                             FileWriter fw = new FileWriter("morsecode.txt", true);
                             PrintWriter pw = new PrintWriter(fw);
                             
-                            pw.println("_");
+                            pw.print("_");
                             System.out.println("time _ " + count);
                             
                             count = 0;
@@ -114,7 +114,7 @@ boolean once = false;
                            FileWriter fw = new FileWriter("morsecode.txt", true);
                            PrintWriter pw = new PrintWriter(fw);
                            
-                           pw.println(".");
+                           pw.print(".");
                            
                            
                            System.out.println("time . " + count);
